@@ -29,6 +29,7 @@ BuildRequires:      make
 Requires:           git
 %if 0%{?suse_version}
 BuildRequires:      libzypp
+Requires:           zypp-plugin-python
 %define HPM zypper
 %define LPM rpm
 %else
